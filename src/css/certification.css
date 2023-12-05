@@ -3864,9 +3864,24 @@ About Area
   }
 }
 .about__right__wraper__2 .aboutarea__2__img__1 {
-  margin-left: 70px;
+  margin-left: 20px;
   border-radius: 10px;
 }
+
+@media (max-width: 991px) {
+  .about__right__wraper__2 .aboutarea__2__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .aboutarea__2__img__1  {
+    display: none;
+  }
+}
+
+
+
 @media (max-width: 767px) {
   .about__right__wraper__2 .aboutarea__2__img__1 {
     margin-left: 0px;
