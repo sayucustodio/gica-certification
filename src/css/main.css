@@ -85,7 +85,7 @@
     }
 }
 /*boton slider*/
-.hreobannerarea__button__2 .default__button {
+.default__button {
     display: inline-block;
     padding: 10px 30px;
     font-size: 16px;
@@ -104,7 +104,7 @@
     overflow: hidden;
   }
 
-  .hreobannerarea__button__2 .default__button:hover {
+  .default__button:hover {
     background-color: #fff;
     color: var(--blueColor);
   }
